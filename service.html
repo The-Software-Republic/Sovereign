@@ -124,7 +124,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item p-4 module-item">
                         <div class="module-icon mx-auto">
-                            <i class="fa fa-chart-simple"></i>
+                            <i class="fa fa-chart-line"></i>
                         </div>
                         <h4 class="mb-3 text-center">Simulación What-If</h4>
                         <p>Motor de simulación de eventos discretos con SimPy. 4 tipos de hipótesis: reducir duración, añadir recurso, cambiar ruta o calendario. 15 réplicas por escenario.</p>
@@ -157,7 +157,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item p-4 module-item">
                         <div class="module-icon mx-auto">
-                            <i class="fa fa-circle-nodes"></i>
+                            <i class="fa fa-project-diagram"></i>
                         </div>
                         <h4 class="mb-3 text-center">Conectividad Universal</h4>
                         <p>REST, JDBC/ODBC, ficheros (CSV/Parquet), Kafka/RabbitMQ/SQS, webhooks. Versiones industriales: OPC UA, MQTT, Modbus, HL7 FHIR, SWIFT.</p>
@@ -168,7 +168,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item p-4 module-item">
                         <div class="module-icon mx-auto">
-                            <i class="fa fa-rotate"></i>
+                            <i class="fa fa-sync"></i>
                         </div>
                         <h4 class="mb-3 text-center">Closed-Loop Control</h4>
                         <p>Agente de acción con 3 modos: Off (solo log), Recomendación (notificación + aprobación), Automático (confianza ≥ 0.9 con autorización OAuth2).</p>
@@ -190,7 +190,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item p-4 module-item">
                         <div class="module-icon mx-auto">
-                            <i class="fa fa-chart-line"></i>
+                            <i class="fa fa-chart-bar"></i>
                         </div>
                         <h4 class="mb-3 text-center">Analítica Predictiva</h4>
                         <p>Modelos ML con PyTorch + scikit-learn: predicción SLA (Gradient Boosting), detección de fraude (IsolationForest), mantenimiento predictivo (LSTM), consumo energético (LSTM).</p>
@@ -201,7 +201,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item p-4 module-item">
                         <div class="module-icon mx-auto">
-                            <i class="fa fa-clock-rotate-left"></i>
+                            <i class="fa fa-history"></i>
                         </div>
                         <h4 class="mb-3 text-center">Histórico de Ejecuciones</h4>
                         <p>Registro completo de cada análisis con trazabilidad, comparativa entre runs y reproducción de resultados. Auditoría completa para cumplimiento normativo.</p>
@@ -370,7 +370,7 @@
         },
         simulacion: {
             title: 'Simulación What-If',
-            icon: 'fa-chart-simple',
+                icon: 'fa-chart-line',
             description: `
                 <p class="lead mb-4" style="font-size: 1.1rem;"><strong>Anticípese al futuro. Pruebe cambios sin riesgo ni coste.</strong> ¿Qué pasa si añado un recurso? ¿Y si reduzco la duración de una actividad? Sovereign le da respuestas cuantitativas antes de invertir.</p>
                 <div class="mb-3"><i class="fa fa-check-circle me-2" style="color: var(--secondary);"></i> <strong>4 tipos de hipótesis.</strong> Reducir duración de actividad, añadir recurso, cambiar probabilidad de ruta, modificar calendario laboral. Combine hipótesis para escenarios complejos.</div>
@@ -412,7 +412,7 @@
         },
         conectividad: {
             title: 'Conectividad Universal',
-            icon: 'fa-circle-nodes',
+                icon: 'fa-project-diagram',
             description: `
                 <p class="lead mb-4" style="font-size: 1.1rem;"><strong>Conecte cualquier fuente de datos, sin límites.</strong> Sovereign está diseñado para integrarse con el ecosistema tecnológico de su empresa, sea cual sea su arquitectura.</p>
                 <div class="mb-3"><i class="fa fa-check-circle me-2" style="color: var(--secondary);"></i> <strong>Conectores core universales.</strong> REST, JDBC/ODBC, ficheros (CSV, Parquet), colas (Kafka, RabbitMQ, SQS), webhooks. Su empresa habla, Sovereign escucha.</div>
@@ -426,7 +426,7 @@
         },
         closedloop: {
             title: 'Closed-Loop Control',
-            icon: 'fa-rotate',
+            icon: 'fa-sync',
             description: `
                 <p class="lead mb-4" style="font-size: 1.1rem;"><strong>De la detección a la acción, sin fricción.</strong> Sovereign no solo analiza: también actúa. Cierre el círculo entre el descubrimiento de problemas y su resolución automática.</p>
                 <div class="mb-3"><i class="fa fa-check-circle me-2" style="color: var(--secondary);"></i> <strong>Tres modos de operación.</strong> Off (solo registro, sin acción), Recomendación (notifica y espera aprobación manual), Automático (aplica cambios si confianza ≥ 0.9).</div>
@@ -454,7 +454,7 @@
         },
         predictiva: {
             title: 'Analítica Predictiva',
-            icon: 'fa-chart-line',
+            icon: 'fa-chart-bar',
             description: `
                 <p class="lead mb-4" style="font-size: 1.1rem;"><strong>El futuro de su operación, modelado con Machine Learning.</strong> Sovereign integra modelos ML avanzados que predicen comportamientos futuros y detectan patrones anómalos antes de que afecten a su negocio.</p>
                 <div class="mb-3"><i class="fa fa-check-circle me-2" style="color: var(--secondary);"></i> <strong>Predicción SLA con Gradient Boosting.</strong> Anticipe qué casos incumplirán el SLA antes de que ocurra. Actúe proactivamente, no reactivamente.</div>
@@ -468,7 +468,7 @@
         },
         historico: {
             title: 'Histórico de Ejecuciones',
-            icon: 'fa-clock-rotate-left',
+            icon: 'fa-history',
             description: `
                 <p class="lead mb-4" style="font-size: 1.1rem;"><strong>Cada análisis, cada decisión, cada resultado, siempre accesible.</strong> Sovereign mantiene un registro completo de todas las ejecuciones de análisis para que pueda auditar, comparar y reproducir resultados en cualquier momento.</p>
                 <div class="mb-3"><i class="fa fa-check-circle me-2" style="color: var(--secondary);"></i> <strong>Trazabilidad completa.</strong> Cada análisis registra su configuración, parámetros, timestamp y resultados. Sepa exactamente qué se ejecutó y cuándo.</div>
